@@ -28,18 +28,18 @@
 
 ```bash
 git clone https://github.com/mishaqdev/MI-Downloader.git  
-cd mi-downloader  
+cd MI-Downloader  
 ```
 **2. Install Required Packages**
   
 Use pip to install the necessary libraries:  
 ```bash
-pip install -r requirements.txt  
+pip install -r streamlit yt-dlp
 ```
 **3. Run the Application**
 
 ```bash
-streamlit run app.py  
+streamlit run MI_Downloader.py  
 ```
 The app will launch in your browser at http://localhost:8501/.  
   
@@ -56,7 +56,7 @@ yt-dlp
   
 ⚠️ Legal & Ethical Use  
   
-This tool is intended strictly for educational and personal use. Downloading or redistributing copyrighted material without permission may violate copyright laws.  
+This tool is intended strictly for educational use. Downloading or redistributing copyrighted material without permission may violate copyright laws.  
   
 Use responsibly.  
   
