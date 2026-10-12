@@ -34,7 +34,9 @@ cd MI-Downloader
   
 Use pip to install the necessary libraries:  
 ```bash
-pip install -r streamlit yt-dlp
+python -m venv venv
+source venv/bin/active
+pip install streamlit yt-dlp
 ```
 **3. Run the Application**
 
